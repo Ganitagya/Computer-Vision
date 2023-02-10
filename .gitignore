@@ -1,2 +1,4 @@
 data/
 yolo/dnn_model/
+.idea/
+.DS_Store
