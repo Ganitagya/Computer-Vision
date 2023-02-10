@@ -9,10 +9,10 @@ def get_center_of_rect(x, y, w, h):
 
 def main():
     # Loading the cascade
-    cars_cascade = cv2.CascadeClassifier('haarcascade_cars.xml')
+    cars_cascade = cv2.CascadeClassifier('../Haarcascade/haarcascade_cars.xml')
     # capture = cv2.VideoCapture('dataset/video.mp4')
 
-    capture = cv2.VideoCapture('dataset/input_video.mp4')
+    capture = cv2.VideoCapture('../data/input_video.mp4')
     counter_line_pos = 550
     offset = 6  # allowable error between pixels
     vehicle_counter = 0
