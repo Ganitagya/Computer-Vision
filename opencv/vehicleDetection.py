@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # capture the video
-capture = cv2.VideoCapture('video.mp4')
+capture = cv2.VideoCapture('SheikhZayed.mp4')
 counter_line_pos = 550
 offset = 6          # allowable error between pixels
 vehicle_counter = 0
